@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --watch src --harmony --enable-source-maps src/entrypoint.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
